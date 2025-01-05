@@ -1,0 +1,232 @@
+        /* Reseteo de estilos */
+        body, h1, p, div, button {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+           
+            background: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/f5/1e/be/bocagrande-desde-el-hotel.jpg?w=900&h=500&s=1') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            background-size: cover;
+            transition: background-image 2s ease-in-out;
+            display: block;
+            height:100% ;
+            width: 100%;
+        }
+        
+
+        header {
+            background-color: transparent;
+            padding: 0px;
+        }
+
+        .logo { 
+            position: absolute;
+            height: 50px;
+            left: 0px;
+            top: 0px;
+        }
+
+        h1 {
+            color: #000;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            z-index: 2;
+           
+        }
+
+        main {
+            position: relative;
+            
+        }
+
+        .in p {
+            
+            margin: 8px;
+            height: 50px;
+            color:#FFFFFF;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            z-index: 1;
+            
+            
+           
+            
+        }
+
+
+        .cards-container {
+            position: relative;
+            left: 200px;
+            top:-50px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 180px;
+            opacity: 0%;
+        }
+
+        .card {
+            position: relative;
+            background-color: rgba(0, 0, 0, 0.7);
+            width: 150px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+            color: #0015FF;
+            background-position: center;
+            transform: scale(1);
+            transition: transform 0.8s ease, background-image 0.8s ease;
+            background-size: cover;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+            
+        }
+
+        #img1 {
+            background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/f5/1e/be/bocagrande-desde-el-hotel.jpg?w=900&h=500&s=1');
+        }
+
+        #img2 {
+            background-image: url('https://www.clarin.com/img/2023/10/07/0sEURTdRz_2000x1500__1.jpg');
+        }
+
+        #img3 {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Medellin.jpg/1200px-Medellin.jpg');
+        }
+        #img4{
+                background-image: url('https://imagenes.eltiempo.com/files/image_1200_600/uploads/2022/01/08/61d93de8c972a.jpeg');
+        }
+            #img5{
+                background-image: url('https://media.istockphoto.com/id/123048785/es/foto/barranquilla-vista.jpg?s=612x612&w=0&k=20&c=6imKZWevPi-RXK-i0cbyIRfWN6mcohSBfdckqpQ1mIQ=')
+               
+        }
+        #img6{
+                background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Bucaramanga_3_Sder_Col_enr_2022.jpg/800px-Bucaramanga_3_Sder_Col_enr_2022.jpg')
+        }
+           #img7{
+                background-image: url('https://caracol.com.co/resizer/v2/Y36TZ4GPTNOUDI4KCKK4J7MPJQ.jpg?auth=a1e25de408be9d8d4f9cb64687bbd3e45e89f694701f1a4f6a3ed16cd278c8b3&width=650&height=488&quality=70&smart=true')
+        }
+           #img8{
+                background-image: url('https://site.caldas.gov.co/images/municipios/imgportada/manizales.jpg')
+        }
+           #img9{
+                background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Armenia%2C_Quindio%2C_Colombia_-_panoramio_-_Jimmy_G%C3%B3mez_N_%2815%29.jpg/800px-Armenia%2C_Quindio%2C_Colombia_-_panoramio_-_Jimmy_G%C3%B3mez_N_%2815%29.jpg')
+        }
+           #img10{
+                background-image: url('https://www.colombiainforma.info/wp-content/uploads/2019/10/cucuta.jpg')
+        }
+           #img11{
+                background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Plaza_Bol%C3%ADvar_Ibague.jpg/1200px-Plaza_Bol%C3%ADvar_Ibague.jpg')
+        }
+           #img12{
+                background-image: url('https://www.semana.com/resizer/v2/KWYOMFLQIRFKDDRZFYAB32HANU.jpg?auth=ba0b54e95a3b501dfe3a026b8287a6ce051b81ab6b8bb52eff728ec0a63e22e2&smart=true&quality=75&width=1280&height=720')
+        }
+           #img13{
+                background-image: url('https://arriendo.com/co/blog/wp-content/uploads/2021/03/villavicencio-colombia-scaled.jpg')
+        }
+           #img14{
+                background-image: url('https://www.cideu.org/wp-content/uploads/Pasto1.jpg')
+        }
+           #img15{
+                background-image: url('https://www.cideu.org/wp-content/uploads/2019/12/14711-1.jpg')
+        }
+           #img16{
+                background-image: url('https://viajandox.com.co/uploads/Sincelejo_1.jpg')
+        }
+           #img17{
+                background-image: url('https://i0.wp.com/elperiodico.net.co/wp-content/uploads/2022/01/valledupar-3.jpg?fit=800%2C523&ssl=1')
+        }
+           #img18{
+                background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4poqYtDWqtqeR6mYU_o3ZGWKWfJV3igyJ9IlWY9zTtvFgn15MaQlR2a6gJT7c6tYN406YFbyUJhxQtYnLxZlTaiYfMvsG8X4mFpiqWngpZCEaVq8xqDJHGgXcuqJtO6l_fNUDVvLz8nqT/s1600/NEIVA+HUILA+COLOMBIA++DESDE+EL+AIRE+1.jpg')
+        }
+           #img19{
+                background-image: url('https://arriendo.com/co/blog/wp-content/uploads/2022/07/visitar-popayan-scaled.jpg')
+        }
+           #img20{
+                background-image: url('https://www.elespectador.com/resizer/v2/N72SG3OVQ5APDD4NKW7OVPVBVE.png?auth=cd6ace3de83e2b1bd123ade923dfaa83e6611f3f5181618177a4141b8d478c82&width=920&height=613&smart=true&quality=60')
+        }
+           #img21{
+                background-image: url('https://magazinmigente.com/wp-content/uploads/2024/02/palmira-espera-convertirse-en-el-primer-distrito-agropecuario-de-colombia-06.jpg')
+        }
+           #img22{
+                background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/02/bf/7d/photo0jpg.jpg?w=1400&h=1400&s=1')
+        }
+           #img23{
+                background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/43/Panor%C3%A1mica_de_San_Andres.JPG')
+        }
+        #img24{
+                background-image: url('https://cloudfront-us-east-1.images.arcpublishing.com/vanguardiaeluniversal/KJSZ6YRQ7ZCTNKMZ42QGPG3XC4.jpg')
+               
+        }
+        #img25{
+                background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Turbaco%2C_Bol%C3%ADvar%2C_Colombia_-_panoramio.jpg/640px-Turbaco%2C_Bol%C3%ADvar%2C_Colombia_-_panoramio.jpg')
+        }
+        .buttons {
+                position:relative;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+            top:-160px;
+            left: 200px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: rgba(255, 255, 255, 1);
+        }
+        #city-name{
+                position: absolute;
+                top:-100px;
+                left: 25px;
+        }
+          .in{
+                  position: relative;
+                  padding: 7px;
+                  height: 130px;
+                  width: 350px;
+                  background-color:#00000082;
+                  top:-250px;
+                  left: 6px;
+                  word-wrap: break-word;
+                  z-index: -1;
+                  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+                  
+                     
+
+          }
+@keyframes opacidad {
+        0%{
+                opacity: 0;
+                
+        }
+        50%{
+                opacity:.5;
+        }
+        100%{
+                opacity: 1;
+        }
+}
+.opacidad {
+            animation: opacidad 3s  forwards; 
+                  
+}
